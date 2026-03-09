@@ -1,11 +1,6 @@
-import java.util.Scanner;
-
-public class rev {
+class rev{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+        int num = 123;
         int rev = 0;
 
         while(num != 0) {
@@ -14,6 +9,6 @@ public class rev {
             num = num / 10;
         }
 
-        System.out.println("Reversed Number = " + rev);
+        System.out.println("Reverse = " + rev);
     }
 }
